@@ -97,3 +97,9 @@ No external API calls occur during `mvn verify`.
 - **GitHub API errors:** Check connectivity and rate limits; use a scoped token only when needed.
 - **Taiga authentication fails:** Check `taiga.host`, username, password, and service availability; never share real credentials in issues.
 - **Build failure:** Confirm `mvn -version` reports Java 21.
+
+## Feedback
+
+[Open an issue](https://github.com/javiergs/tulip-getting-started/issues/new/choose) to report an example bug, suggest a feature, or flag unclear documentation.
+
+For bugs, include the example or guide section, the command you ran, and what you expected and observed. Include your operating system and Java and Maven versions when relevant. For integration problems, name the affected module or service and include sanitized error output.
