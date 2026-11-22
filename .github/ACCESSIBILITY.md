@@ -1,6 +1,6 @@
 # Accessibility
 
-We aim to make the TULIP Getting Started examples and documentation usable by learners with different abilities, devices, and experience levels.
+We aim to make the TULIP4J Getting Started examples and documentation usable by learners with different abilities, devices, and experience levels.
 
 ## Documentation and examples
 

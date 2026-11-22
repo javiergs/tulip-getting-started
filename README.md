@@ -1,14 +1,14 @@
-# Getting Started with TULIP
+# Getting Started with TULIP4J
 
 ![Java 21+](https://img.shields.io/badge/Java-21%2B-blue)
 ![Version 8.0.0](https://img.shields.io/badge/version-8.0.0-green)
 [![Java CI](https://github.com/javiergs/tulip-getting-started/actions/workflows/java-ci.yml/badge.svg)](https://github.com/javiergs/tulip-getting-started/actions/workflows/java-ci.yml)
 
-**TULIP** is a Java utility library for working with GitHub, Taiga, and other developer tools. Use this repository to learn the published **TULIP 8.0.0** API through small, independent Java 21 and Maven examples.
+**TULIP4J** is a Java utility library for working with GitHub, Taiga, and other developer tools. Use this repository to learn the published **TULIP4J 8.0.0** API through small, independent Java 21 and Maven examples.
 
-<img width="1536" height="1024" alt="TULIP library overview illustration" src="https://github.com/user-attachments/assets/01117cfe-735b-44e0-9ed4-2bb47c6126ab" />
+<img width="1536" height="1024" alt="TULIP4J library overview illustration" src="https://github.com/user-attachments/assets/01117cfe-735b-44e0-9ed4-2bb47c6126ab" />
 
-**New to TULIP?** Start with the [Student Quick Start](docs/student-quick-start.md) for guided examples and independent development.
+**New to TULIP4J?** Start with the [Student Quick Start](docs/student-quick-start.md) for guided examples and independent development.
 
 ## Requirements
 
@@ -76,7 +76,7 @@ No external API calls occur during `mvn verify`.
 
 - **GitHub:** URL parsing, remote file retrieval, and repository traversal. [Guide](docs/github-client.md).
 - **Taiga:** Projects, sprints, user stories, tasks, and status operations. [Guide](docs/taiga-client.md).
-- **RTDE migration:** Universal Robots RTDE support has moved out of TULIP into the independent RTDE4J library. See the [RTDE4J getting-started guide](https://github.com/javiergs/rtde4j-getting-started) for installation and JavaDoc.
+- **RTDE migration:** Universal Robots RTDE support has moved out of TULIP4J into the independent RTDE4J library. See the [RTDE4J getting-started guide](https://github.com/javiergs/rtde4j-getting-started) for installation and JavaDoc.
 - **Compiler:** Lexer, token, and automata helpers; see the [API reference](https://javiergs.github.io/tulip-api/javadoc/javiergs/tulip/compiler/package-summary.html).
 - **Groq:** API client utilities; see the [API reference](https://javiergs.github.io/tulip-api/javadoc/javiergs/tulip/groq/package-summary.html).
 
@@ -88,12 +88,12 @@ No external API calls occur during `mvn verify`.
 
 ## API documentation
 
-- [TULIP JavaDoc](https://javiergs.github.io/tulip-api/javadoc/) — published API reference.
+- [TULIP4J JavaDoc](https://javiergs.github.io/tulip-api/javadoc/) — published API reference.
 - [GitHub client guide](docs/github-client.md) and [Taiga client guide](docs/taiga-client.md) — examples and configuration.
 
 ## Troubleshooting
 
-- **Maven cannot resolve TULIP:** Use the published `com.javiergs:tulip:8.0.0` dependency; a later version may not yet be available on Maven Central.
+- **Maven cannot resolve TULIP4J:** Use the published `com.javiergs:tulip:8.0.0` dependency; a later version may not yet be available on Maven Central.
 - **GitHub API errors:** Check connectivity and rate limits; use a scoped token only when needed.
 - **Taiga authentication fails:** Check `taiga.host`, username, password, and service availability; never share real credentials in issues.
 - **Build failure:** Confirm `mvn -version` reports Java 21.
