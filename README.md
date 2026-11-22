@@ -1,8 +1,9 @@
 # Getting Started with TULIP4J
 
-![Java 21+](https://img.shields.io/badge/Java-21%2B-blue)
-![Version 8.0.0](https://img.shields.io/badge/version-8.0.0-green)
-[![Java CI](https://github.com/javiergs/tulip-getting-started/actions/workflows/java-ci.yml/badge.svg)](https://github.com/javiergs/tulip-getting-started/actions/workflows/java-ci.yml)
+[![Java 21+](https://img.shields.io/badge/Java-21%2B-blue)](https://adoptium.net/temurin/releases/?version=21)
+[![API version 8.0.0](https://img.shields.io/badge/API-8.0.0-green)](https://central.sonatype.com/artifact/com.javiergs/tulip/8.0.0)
+[![Java CI](https://github.com/javiergs/tulip4j-getting-started/actions/workflows/java-ci.yml/badge.svg?branch=main)](https://github.com/javiergs/tulip4j-getting-started/actions/workflows/java-ci.yml)
+[![Javadoc](https://img.shields.io/badge/docs-Javadoc-blue)](https://javiergs.github.io/tulip-api/javadoc/)
 
 **TULIP4J** is a Java utility library for working with GitHub, Taiga, and other developer tools. Use this repository to learn the published **TULIP4J 8.0.0** API through small, independent Java 21 and Maven examples.
 
