@@ -3,7 +3,7 @@
 [![Java 21+](https://img.shields.io/badge/Java-21%2B-blue)](https://adoptium.net/temurin/releases/?version=21)
 [![API version 8.0.0](https://img.shields.io/badge/API-8.0.0-green)](https://central.sonatype.com/artifact/com.javiergs/tulip/8.0.0)
 [![Java CI](https://github.com/javiergs/tulip4j-getting-started/actions/workflows/java-ci.yml/badge.svg?branch=main)](https://github.com/javiergs/tulip4j-getting-started/actions/workflows/java-ci.yml)
-[![Javadoc](https://img.shields.io/badge/docs-Javadoc-blue)](https://javiergs.github.io/tulip-api/javadoc/)
+[![Javadoc](https://img.shields.io/badge/docs-Javadoc-blue)](https://javiergs.github.io/tulip4j-getting-started/javadoc/)
 
 **TULIP4J** is a Java utility library for working with GitHub, Taiga, and other developer tools. Use this repository to learn the published **TULIP4J 8.0.0** API through small, independent Java 21 and Maven examples.
 
@@ -40,7 +40,7 @@ Add the following dependency to your project's `pom.xml`:
 ```
 
 - [Maven Central artifact page](https://central.sonatype.com/artifact/com.javiergs/tulip/8.0.0)
-- [API reference (JavaDoc)](https://javiergs.github.io/tulip-api/javadoc/)
+- [API reference (JavaDoc)](https://javiergs.github.io/tulip4j-getting-started/javadoc/)
 
 > GitHub Actions compiles the single Maven project against the published Maven Central dependency. Service authentication and live API behavior are not tested in CI.
 
@@ -78,8 +78,8 @@ No external API calls occur during `mvn verify`.
 - **GitHub:** URL parsing, remote file retrieval, and repository traversal. [Guide](docs/github-client.md).
 - **Taiga:** Projects, sprints, user stories, tasks, and status operations. [Guide](docs/taiga-client.md).
 - **RTDE migration:** Universal Robots RTDE support has moved out of TULIP4J into the independent RTDE4J library. See the [RTDE4J getting-started guide](https://github.com/javiergs/rtde4j-getting-started) for installation and JavaDoc.
-- **Compiler:** Lexer, token, and automata helpers; see the [API reference](https://javiergs.github.io/tulip-api/javadoc/javiergs/tulip/compiler/package-summary.html).
-- **Groq:** API client utilities; see the [API reference](https://javiergs.github.io/tulip-api/javadoc/javiergs/tulip/groq/package-summary.html).
+- **Compiler:** Lexer, token, and automata helpers; see the [API reference](https://javiergs.github.io/tulip4j-getting-started/javadoc/javiergs/tulip/compiler/package-summary.html).
+- **Groq:** API client utilities; see the [API reference](https://javiergs.github.io/tulip4j-getting-started/javadoc/javiergs/tulip/groq/package-summary.html).
 
 ## Credentials and service safety
 
@@ -89,7 +89,7 @@ No external API calls occur during `mvn verify`.
 
 ## API documentation
 
-- [TULIP4J JavaDoc](https://javiergs.github.io/tulip-api/javadoc/) — published API reference.
+- [TULIP4J JavaDoc](https://javiergs.github.io/tulip4j-getting-started/javadoc/) — published API reference.
 - [GitHub client guide](docs/github-client.md) and [Taiga client guide](docs/taiga-client.md) — examples and configuration.
 
 ## Troubleshooting
