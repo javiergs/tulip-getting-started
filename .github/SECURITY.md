@@ -1,6 +1,6 @@
 # Security Policy
 
-This repository contains educational examples and documentation for TULIP. Please do not post credentials, access tokens, private keys, personal data, or sensitive device information in issues or pull requests.
+This repository contains educational examples and documentation for TULIP4J. Please do not post credentials, access tokens, private keys, personal data, or sensitive device information in issues or pull requests.
 
 ## Reporting a vulnerability
 

@@ -1,13 +1,13 @@
-# Contributing to TULIP Getting Started
+# Contributing to TULIP4J Getting Started
 
-Thank you for improving the public tutorials, examples, and documentation for **TULIP**.
+Thank you for improving the public tutorials, examples, and documentation for **TULIP4J**.
 
-This repository contains **student-facing examples** that use the published `com.javiergs:tulip:8.0.0` Maven dependency. The TULIP library implementation is maintained separately and is not part of this repository. You do not need access to its source code.
+This repository contains **student-facing examples** that use the published `com.javiergs:tulip:8.0.0` Maven dependency. The TULIP4J library implementation is maintained separately and is not part of this repository. You do not need access to its source code.
 
 ## Contributions welcome
 
 - Clearer Java 21 and Maven setup instructions.
-- Small, reproducible examples for GitHub, Taiga, compiler, and other published TULIP APIs.
+- Small, reproducible examples for GitHub, Taiga, compiler, and other published TULIP4J APIs.
 - Bug fixes, tests, documentation, and troubleshooting guides.
 - Improved explanations of authentication, API responses, error handling, and limitations.
 
@@ -42,4 +42,4 @@ Start with public GitHub repositories or Taiga's read-only example. The `taiga-a
 
 All contributions should be submitted as pull requests for instructor/maintainer review. Do not push directly to `main` or merge without approval.
 
-When reporting a bug, include your OS, Java/Maven versions, TULIP version, reproduction steps, expected/actual results, and sanitized logs.
+When reporting a bug, include your OS, Java/Maven versions, TULIP4J version, reproduction steps, expected/actual results, and sanitized logs.

@@ -1,6 +1,6 @@
-# Student Quick Start — TULIP 8.0.0
+# Student Quick Start — TULIP4J 8.0.0
 
-**Goal:** Learn to use the published TULIP Java library with external APIs, beginning with a public GitHub repository and progressing to authenticated, read-only Taiga access.
+**Goal:** Learn to use the published TULIP4J Java library with external APIs, beginning with a public GitHub repository and progressing to authenticated, read-only Taiga access.
 
 > [!IMPORTANT]
 > The Taiga write example can **create, move, and delete** project data. Use a disposable test project only. Start with the read-only examples; never use production credentials or projects.
@@ -23,7 +23,7 @@ cd tulip-getting-started
 mvn clean verify
 ```
 
-Maven downloads `com.javiergs:tulip:8.0.0` automatically from Maven Central. You do not need the TULIP implementation source.
+Maven downloads `com.javiergs:tulip:8.0.0` automatically from Maven Central. You do not need the TULIP4J implementation source.
 
 ## 3. First experiment: GitHub (no token required for public repositories)
 
@@ -67,7 +67,7 @@ Create a separate Maven project or a new example in your fork. Possible directio
 - Retrieve a particular file from a public GitHub repository and summarize its metadata.
 - Compare top-level and recursive GitHub file listings.
 - List Taiga user stories or tasks without modifying them.
-- Propose a new example for another published TULIP module after reviewing its Javadoc.
+- Propose a new example for another published TULIP4J module after reviewing its Javadoc.
 
 Document the function's inputs, API calls, expected results, failure behavior, and exact run command.
 
